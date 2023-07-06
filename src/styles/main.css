@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Sarabun&display=swap);
+
+body {
+  margin: 0;
+  font-family: Sarabun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f0f0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: chocolate;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#nprogress .bar {
+  background: #bada55;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #bada55, 0 0 5px #bada55;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #bada55;
+  border-left-color: #bada55;
+}
+
+.rdw-image-modal-upload-option-label {
+  word-break: break-all !important;
+}
+
+.ellipsis {
+  overflow: hidden;
+  height: 100px;
+  line-height: 25px;
+  /* margin: 15px; */
+}
+.ellipsis:before {
+  content: '';
+  float: left;
+  width: 5px;
+  height: 100px;
+}
+.ellipsis > *:first-child {
+  float: right;
+  width: 100%;
+  margin-left: -5px;
+}
+.ellipsis:after {
+  content: '\02026';
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  float: right;
+  position: relative;
+  top: -23px;
+  left: 98%;
+  width: 1.2em;
+  margin-left: -1.2em;
+  padding-right: 5px;
+  text-align: right;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    to(white),
+    color-stop(0%, white)
+  );
+  background: -moz-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 0%,
+    white
+  );
+  background: -o-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 0%,
+    white
+  );
+  background: -ms-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 0%,
+    white
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 0%,
+    white
+  );
+}
+
+.fb-page > span {
+  width: 100% !important;
+}
+
+.uiScaledImageContainer {
+  width: 100% !important;
+}
+
+del:before {
+  content: '';
+  display: block;
+  width: 100%;
+  border-top: 2px solid red;
+  height: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-7deg);
+}
+
+.list-group {
+  display: flex;
+}
+
+.list-group-item {
+  margin-left: 10px;
+  display: block;
+}
